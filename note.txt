@@ -11,3 +11,5 @@ E:\practiceCode\react_ts\jira\public\robots.txt  配置搜索引擎怎么对待�
  -> util工具cleanObject,获取干净对象 -> 利用qs模块自动整合传参的?后面参数
  ->自定义useMount Hook 来解决 利用useEffect的空数组依赖实现的只加载一次的功能(避免都是[])
  ->自定义useDebounce 输入防抖
+ ->由各种小错误，少写漏写，等人类不可避免错误引入ts概念(能帮助我们在静态代码中发现错误，也就是强类型的好处)，没有ts，我们只能在runtime才能发现
+ -> xxx.d.ts 是给 js文件打补丁的
