@@ -2,4 +2,10 @@ E:\practiceCode\react_ts\jira\public\manifest.json 用来pwa 也就是增强app�
 
 E:\practiceCode\react_ts\jira\public\robots.txt  配置搜索引擎怎么对待我们的项目
 
-讲解文件作用 -> 设置根目录 -> 配置prettier格式化 ->
+<--配置环节-->
+讲解文件作用 -> 设置根目录 -> 配置prettier格式化 -> 用commitlint规范commit提交信息
+选择mock数据方法（本地node服务器 json-server）
+
+<--开发环节-->
+第一个问题：状态提升 -> 提取公共请求url到.env/.env.development中
+ -> util工具cleanObject,获取干净对象 -> 利用qs模块自动整合传参的?后面参数
