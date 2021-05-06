@@ -1,0 +1,5 @@
+E:\practiceCode\react_ts\jira\public\manifest.json 用来pwa 也就是增强app功能的
+
+E:\practiceCode\react_ts\jira\public\robots.txt  配置搜索引擎怎么对待我们的项目
+
+讲解文件作用 -> 设置根目录 -> 配置prettier格式化 ->
