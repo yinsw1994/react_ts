@@ -14,4 +14,7 @@ E:\practiceCode\react_ts\jira\public\robots.txt  配置搜索引擎怎么对待�
  ->由各种小错误，少写漏写，等人类不可避免错误引入ts概念(能帮助我们在静态代码中发现错误，也就是强类型的好处)，没有ts，我们只能在runtime才能发现
  -> xxx.d.ts 是给 js文件打补丁的  -> 讲解ts的使用
  -> 怎么用json-server模拟不是restful api的接口
- -> 使用npx imooc-jira-tool 这个插件的services-worker分布式服务端来进行真实数据，不再使用json-server模拟不再使用restful
+ -> 使用npx imooc-jira-tool 这个插件的services-worker分布式服务端来进行真实数据，不再使用json-server模拟
+ -> 开始处理token的本地存储持久化功能 auth-provider
+ -> useContext储存全局用户信息  src/context
+ -> useAuth区分登录非登录，展示不同页面

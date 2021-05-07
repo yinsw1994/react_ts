@@ -3,7 +3,6 @@ import React, { FormEvent } from 'react'
 
 export const LoginScreen = () => {
     const { login, user } = useAuth()
-    console.log(user)
     const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault()
         const username = (event.currentTarget.elements[0] as HTMLInputElement).value
@@ -12,8 +11,7 @@ export const LoginScreen = () => {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            {user ? <div>登录成功: {user && user.name}</div> : null}            
+        <form onSubmit={handleSubmit}>           
             <div>
                 <label htmlFor="username">用户名</label>
                 <input type="text" id={'username'} />
