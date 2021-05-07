@@ -21,4 +21,5 @@ E:\practiceCode\react_ts\jira\public\robots.txt  配置搜索引擎怎么对待�
  -> 封装http请求， 让请求自带token  -> 解决因为页面刷新变成了登出状态，需要初始化user
 
  ->进入css部分  antd(craco) + emotion + flex + grid -> 更改ant 的默認配色
- ->emotion模块化css
+ ->emotion模块化css 优化登录界面
+ -> flex布局和grid布局（一般来说，一维布局用flex，二维布局用grid, 从内容出发，用flex, 从布局出发，用grid）
